@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
           return vm.isLoading
               ? Center(
                   child: CircularProgressIndicator(
-                  color: Colors.red,
+                  color: Colors.blue,
                 ))
               : ListView(
                   children: [
