@@ -51,16 +51,16 @@ class MemeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(6.0),
+      padding: const EdgeInsets.all(10.0),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15.0),
+          borderRadius: BorderRadius.circular(20.0),
           color: Colors.white,
           boxShadow: [
             BoxShadow(
               color: Colors.grey.shade300,
-              spreadRadius: 5.0,
-              blurRadius: 5.0,
+              spreadRadius: 10.0,
+              blurRadius: 10.0,
             ),
           ],
         ),
