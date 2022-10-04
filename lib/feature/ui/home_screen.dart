@@ -69,7 +69,7 @@ class MemeCard extends StatelessWidget {
           children: [
             Container(
               height: 100.0,
-              width: 150.0,
+              width: 100.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15.0),
                 image: DecorationImage(
